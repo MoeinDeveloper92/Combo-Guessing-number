@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+.dial {
+    width: 70px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    font-size: 3em;
+    margin: 10px;
+}
+
+.btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 2em;
+    background-color: black;
+    color: #fff;
+
+}
+
+.output {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    background-color: beige;
+}
+
+.message {
+    background-color: coral;
+    padding: 10px;
+    font-size: 2em;
+    border-color: orangered;
+    border: 2px solid;
+    border-radius: 10px;
+    color: white;
+}
